@@ -15,7 +15,7 @@ def run_guessing_game
     #puts computer_guess
     res = gets.chomp
     #puts res
-    if computer_guess == res.to_i 
+    if computer_guess == res.to_i
       puts "You guessed the correct number!"
     else
       puts "The computer guessed #{computer_guess}."

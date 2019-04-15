@@ -7,6 +7,10 @@ def random_number
   rand(1..6)
 end
 
+def exit_game
+  puts "Goodbye!"
+end
+
 def run_guessing_game
   res = ""
   while res != "exit"

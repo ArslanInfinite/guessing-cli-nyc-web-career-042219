@@ -4,6 +4,6 @@ def run_guessing_game
   puts "Goodbye!"
 end
 
-def random_num
+def random_number
   rand(1..6)
 end
